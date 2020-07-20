@@ -2,6 +2,9 @@
 .|![demo.gif](demo.gif)        |    .
 :-------------------------:|:-------------------------:|:-------------------------:
 
+You can download the pre-trained model from [here](https://drive.google.com/file/d/1SFxVHcM9fhdzBgI8KRoAqb_chdtO5zoI/view?usp=sharing)
+
+
 The fundamental matrix can estimate the poses of two given frame in the real world environment by providing the 
 rotation matrix and translation matrix of the second frame comparing to the first frame. Therefore, the fundamental matrix
 can provide valuable information for reconstructing 3D scene. 
@@ -60,17 +63,17 @@ DATASET ROOT
 |             |      +--- 000000.png        # frame 0000000
 |             |      .
 |             |      .
-|             |      +--- nnnnnn.png        # frame nnnnnn  
-|             |  
+|             |      +--- nnnnnn.png        # frame nnnnnn 
+|             |
 |             +---- image_1                  # colored camera folder 
 |             |      +--- 000000.png        # frame 0000000
 |             |      .
 |             |      .
 |             |      +--- nnnnnn.png        # frame nnnnnn 
-|             |      
+|             |
 |             +--- calib.txt                # cabliration config 
-|             |      
-|             +--- times.txt                # time stamp for each frame              
+|             |
+|             +--- times.txt                # time stamp for each frame
 |
 +-- poses                                   # poses folder
        |
