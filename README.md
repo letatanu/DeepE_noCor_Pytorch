@@ -30,8 +30,8 @@ in the epipolar environment on the camera 1, *x'* is the projection of 3D point 
 on the camera 2. The correlation between them is:
 > ![\T](https://latex.codecogs.com/png.latex?\dpi{100}(x')^T) . F.  x = 0
 
-However, in the monocular camera, we do not need to calibrate the camera to the origin of the first camera.
-Therefore, in the case of the monocular camera, the essential matrix still satisfies the formula of the fundamental matrix, that is:
+However, in this project, I just wanted to know the relative orientation of 2 given images from the monocular camera. Therefore, the essential matrix is used. 
+
 > ![\T](https://latex.codecogs.com/png.latex?\dpi{100}(x')^T) . E.  x = 0
 ## Network and Dataset
 
