@@ -2,7 +2,7 @@
 .|![demo.gif](demo.gif)        |    .
 :-------------------------:|:-------------------------:|:-------------------------:
 
-You can download the pre-trained model from [here](https://drive.google.com/file/d/1SFxVHcM9fhdzBgI8KRoAqb_chdtO5zoI/view?usp=sharing)
+You can download the pre-trained model from [here](https://drive.google.com/file/d/1ZnmlPu1NeXXMk6NHiP7fegzXM117eb15/view?usp=sharing)
 
 
 The fundamental matrix can estimate the poses of two given frame in the real world environment by providing the 
